@@ -1,28 +1,32 @@
 {
+  "description": "Hello World sample app for AppSource",
+  "brief": "Hello World for AppSource",
+  "privacyStatement": "https://dev.azure.com/businesscentralapps/HelloWorld.AppSource",
+  "resourceExposurePolicy": {
+    "includeSourceInSymbolFile": false,
+    "allowDownloadingSource": false,
+    "allowDebugging": true
+  },
   "id": "feeb74ac-cfb3-4f01-bea3-2d11ce22f80f",
-  "name": "My App",
-  "publisher": "My Publisher",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [],
   "screenshots": [],
+  "url": "https://dev.azure.com/businesscentralapps/HelloWorld.AppSource",
+  "logo": "helloworld256x240.png",
+  "dependencies": [],
   "platform": "1.0.0.0",
-  "application": "19.0.0.0",
+  "EULA": "https://dev.azure.com/businesscentralapps/HelloWorld.AppSource",
+  "features": [
+    "TranslationFile"
+  ],
+  "contextSensitiveHelpUrl": "https://dev.azure.com/businesscentralapps/HelloWorld.AppSource",
+  "version": "1.0.0.0",
+  "name": "My App",
   "idRanges": [
     {
       "from": 75055000,
       "to": 75056000
     }
   ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+  "help": "https://dev.azure.com/businesscentralapps/HelloWorld.AppSource",
+  "publisher": "My Publisher",
+  "application": "19.0.0.0"
 }
